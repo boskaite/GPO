@@ -1,11 +1,19 @@
 <script>
 	export let name;
+	let login='';
+	let password='';
+	const logingenter;
+	const passwordenter;
+
 </script>
 
 <main>
 	<h1>Приветствую тебя, {name}!</h1>
 	<p>Введи данные учетной записи для входа.</p>
 </main>
+
+<input bind:value={login} placeholder="Логин">
+<input bind:value={password} placeholder="Пароль">
 
 <style>
 	main {
@@ -18,7 +26,7 @@
 	h1 {
 		color: #ff3e00;
 		text-transform: uppercase;
-		font-size: 4em;
+		font-size: 3em;
 		font-weight: 100;
 	}
 
