@@ -28,6 +28,7 @@
 	<button class="out" on:click={Out}>Выйти</button>
 </main>
 
+
 <style>
 	h2{
 margin-left: 40px;
